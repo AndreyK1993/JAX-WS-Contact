@@ -1,15 +1,15 @@
 package server.entity;
 
-public class User {
+public class Contact {
 
     private final Integer id;
     private final String name;
-    private final String email;
+    private final String phone;
 
-    public User(Integer id, String name, String email) {
+    public Contact(Integer id, String name, String phone) {
         this.id = id;
         this.name = name;
-        this.email = email;
+        this.phone = phone;
     }
 
     public Integer getId() {
@@ -20,14 +20,14 @@ public class User {
         return name;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPhone() {
+        return phone;
     }
 
     @Override
     public String toString() {
         return "id - " + this.getId() +
                 ", " + this.getName() +
-                ", email: " + this.getEmail() + "\n";
+                ", email: " + this.getPhone() + "\n";
     }
 }

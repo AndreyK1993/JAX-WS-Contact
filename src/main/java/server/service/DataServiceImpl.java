@@ -6,7 +6,7 @@ import server.repository.DataRepository;
 import java.util.concurrent.atomic.AtomicInteger;
 
 // Імплементація інтерфейсу Web-сервісу.
-@WebService(endpointInterface = "org.example.server.service.DataService")
+@WebService(endpointInterface = "server.service.DataService")
 public class DataServiceImpl implements DataService {
 
     private static final String GET_DATA_KEY = "get";

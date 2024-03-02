@@ -14,7 +14,7 @@ public class DataClient {
 
         QName qname = new QName(
                 // Service URI (INFO/img_02.png)
-                "http://service.server.example.org/",
+                "http://service.server/",
                 // Service Implementation (INFO/img_02.png)
                 "DataServiceImplService"
         );
